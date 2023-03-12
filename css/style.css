@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header ul{
+    text-align: right;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+}
+#handburger{
+    width: 30px;
+}
+#myphotolog{
+    width: 30px;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+    
+}
+footer ul{
+    display: inline-block;
+}
+section p{
+    text-align: center;
+}
+
+.sear{
+    width: 20px;
+    position:absolute;
+}
+section img{
+    text-align: center;
+}
+#glogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+
+.forms
+{
+    display: flex;
+    justify-content: center;
+}
+.submitform
+{
+    display: flex;
+    justify-content: center; 
+}
+.submitform input{
+    margin: 1%;
+    padding:2%;
+}
+#search
+{
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 5%;
+}
+#searchdiv{
+    position: relative;
+}
+#searchicon{
+    bottom:20%;
+    left:1%;
+}
+
+#mic{
+    bottom:20%;
+    right:7%;
+}
+
+#cam{
+    right:1%;
+    bottom:20%;
+}
+
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    width:100%;
+    bottom:0;
+    color: #70757a;
+}
+.footer{
+    border:1px solid #dadce0;
+}
+
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
